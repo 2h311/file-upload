@@ -548,9 +548,7 @@ fields =[
 ]
 
 if __name__ == "__main__":
-	# driver_path = "chromedriver/chromedriver.exe"
-	driver_path = "C:/Users/DELL/jobs/chromedriver/chromedriver.exe"
-	
+	driver_path = "chromedriver/chromedriver.exe"	
 	base_url = 'https://www.linkedin.com'
 	logging.basicConfig(format="## %(message)s", level=logging.INFO)
 	logging.disable(logging.INFO)
