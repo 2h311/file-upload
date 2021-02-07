@@ -518,7 +518,7 @@ def card_operations():
 			data = in_network(profile_link)
 		
 		pprint.pprint(data)
-		# writer.write_to_sheet(data)
+		writer.write_to_sheet(data)
 		switch_window(handles[0])
 
 def traverse_pages():
